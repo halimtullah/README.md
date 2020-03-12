@@ -7,7 +7,7 @@ ul{
     color: blueviolet;
     text-indent: 10px;
 }
-about{
+.about{
     font-style: italic;
     color: blueviolet;
 }
@@ -39,5 +39,22 @@ img{
     border: 2px solid red;
     padding: 6px;
     margin: 20px;
-    background-color: yellow;
+    background-color: green;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+     body {
+          background-color: black;
+          color: whitesmoke;
+    
+    }
+
+}
+@media screen and (min-width: 768px){ 
+    body { 
+        background-color: yellowgreen; 
+        
+
+    }
+    
 }
